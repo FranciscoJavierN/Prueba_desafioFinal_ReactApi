@@ -1,0 +1,11 @@
+body {
+  background:
+    url("assets/img/pokemon_PNG14.png") no-repeat right center fixed;
+  background-blend-mode: multiply;
+  background-size: auto;
+}
+
+.buscador::placeholder {
+  font-weight: 600;
+  color: rgb(10, 34, 248);
+}

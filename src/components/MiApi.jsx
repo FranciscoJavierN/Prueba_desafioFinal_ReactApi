@@ -65,7 +65,6 @@ const MiApi = () => {
             setPokemones([]);
         }
     };
-
     //Filtrado de datos
     let results = [];
     if (!search) {
@@ -129,7 +128,6 @@ const MiApi = () => {
                                 <h3 style={{ textTransform: "capitalize" }}>{pokemon.name}</h3>
                             </div>
                         </div>
-
 
                     )
                 })
